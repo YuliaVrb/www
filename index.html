@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обмен криптовалют</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Логотип">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Обменять</a></li>
+                <li><a href="#">Обзор</a></li>
+                <li><a href="#">NFT</a></li>
+                <li><a href="#">Пулы</a></li>
+            </ul>
+        </nav>
+        <div class="language-switch">
+            <button>RU</button>
+        </div>
+    </header>
+    <main>
+        <div class="exchange-container">
+            <h1>Обменять в любой момент, в любом месте.</h1>
+            <div class="exchange-form">
+                <div class="form-group">
+                    <input type="number" placeholder="0">
+                    <select>
+                        <option>ETH</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="number" placeholder="0">
+                    <button>Выберите токен</button>
+                </div>
+                <button id="connect-wallet">Подключить кошелек</button>
+            </div>
+            <p class="description">Крупнейшая онлайн-торговая площадка. Покупайте и продавайте криптовалюту на Ethereum и в более чем 7 других цепях.</p>
+        </div>
+    </main>
+    <footer>
+        <p>Прокрутите, чтобы узнать больше</p>
+    </footer>
+    <div class="background-icons">
+        <img src="images/icon1.png" alt="Иконка 1" class="icon icon1">
+        <img src="images/icon2.png" alt="Иконка 2" class="icon icon2">
+        <img src="images/icon3.png" alt="Иконка 3" class="icon icon3">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
